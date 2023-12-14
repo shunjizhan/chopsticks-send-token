@@ -1,4 +1,4 @@
-### cannot get logs on karura fork
+## cannot get logs on karura fork
 - start local karura fork
 ```
 bunx @acala-network/chopsticks@latest -c configs/karura.yml
@@ -17,12 +17,13 @@ transfer complete!
 logs:  []
 ```
 
-### can get logs on acala fork
+## can get logs on acala fork
 ```
 bunx @acala-network/chopsticks@latest -c configs/acala.yml
 bunx @acala-network/eth-rpc-adapter@latest -e ws://localhost:8000
 
 yarn test:acala
+
 -----------------------
 transfer complete!
 logs:  [
